@@ -1,0 +1,26 @@
+<body style="height:300px; width:700px">
+<form action="servlet1" method="post">
+Name:<input type="text" name="username"/><br/><br/>
+Password:<input type="password" name="userpass"/><br/><br/>
+<input type="hidden" name="type" value="login"/>
+<input type="submit" value="login"/>
+
+</form>
+<!-- <script>
+//  Uncomment the next line if you want the prank to happen only when the url hashtag is #april
+//  if (document.location.hash.indexOf('april') > -1)
+function run(){
+	 document.body.style.transform =
+		  document.body.style.webkitTransform =
+		  document.body.style.MozTransform =
+		  document.body.style.OTransform =
+		  document.body.style.msTransform =
+		  'rotate(' + [45, 90, 135, 180, 225, 270, 315][Math.floor(Math.random() * 7)] + 'deg)';
+	 
+	 setTimeout(function(){ run(); }, 3000);
+}
+
+setTimeout(function(){ run(); }, 3000);
+ 
+</script> -->
+</body>
